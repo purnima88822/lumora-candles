@@ -1,135 +1,109 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LUMORA CANDLES | Light Up Your Life</title>
+<title>LUMORA | Handmade Candles</title>
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Georgia,serif;color:#38291f;background:#faf7f0}
-header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;background:#faf7f0;position:sticky;top:0;z-index:5}
-.logo{font-size:25px;letter-spacing:5px;color:#9b7548}
-nav a{color:#38291f;text-decoration:none;margin-left:20px;font-size:13px}
-.hero{min-height:520px;display:flex;align-items:center;padding:70px 9%;background:linear-gradient(90deg,rgba(30,22,17,.78),rgba(30,22,17,.12)),url('https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=1800&q=85') center/cover;color:white}
-.hero div{max-width:510px}
-.eyebrow{letter-spacing:4px;font-size:12px;color:#e8c99d}
-h1{font-size:clamp(43px,7vw,76px);font-weight:normal;line-height:1.1;margin:22px 0}
-.hero p{line-height:1.8;font-size:16px}
-.btn{display:inline-block;background:#b38b59;color:white;padding:15px 28px;text-decoration:none;border:0;margin-top:28px;cursor:pointer;font-family:Arial}
-section{padding:75px 7%}
-.section-title{text-align:center;margin-bottom:40px}
-.section-title small{letter-spacing:4px;color:#a47b4c}
-.section-title h2{font-size:36px;font-weight:normal;margin-top:12px}
-.products{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
-.product{background:white;padding-bottom:22px;text-align:center}
-.product img{width:100%;height:290px;object-fit:cover}
-.product h3{font-weight:normal;margin:18px 0 8px;font-size:21px}
-.price{color:#a47b4c;font-family:Arial}
-.product button{background:#38291f;color:white;padding:11px 22px;border:0;margin-top:15px;cursor:pointer}
-.story{background:#eee6d9;text-align:center;line-height:2}
-.story p{max-width:650px;margin:20px auto}
-.banner{background:#49372a;color:#fff;text-align:center;padding:65px 20px}
-.banner h2{font-size:35px;font-weight:normal}
-.banner p{margin-top:15px}
-footer{background:#251d18;color:#e9d9c4;text-align:center;padding:35px 15px;line-height:2}
-#cart{position:fixed;right:15px;bottom:15px;background:#b38b59;color:white;padding:14px 20px;border:0;z-index:10;cursor:pointer}
-@media(max-width:700px){
-header{padding:18px 5%;flex-wrap:wrap;gap:15px}
-.logo{font-size:20px}
-nav{width:100%}
-nav a{margin:0 12px 0 0;font-size:12px}
-.hero{min-height:470px;padding:50px 7%}
-.products{grid-template-columns:1fr}
-.product img{height:330px}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,serif;background:#faf7f0;color:#30251e}
+header{padding:20px 6%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e9dfd0}
+.logo{font-size:27px;letter-spacing:5px;color:#765333}
+nav a{margin-left:18px;text-decoration:none;color:#49382b;font-size:14px}
+.hero{padding:75px 7%;text-align:center;background:#eee5d8}
+.hero p{letter-spacing:4px;font-size:12px;color:#8b6b48}
+h1{font-size:clamp(38px,7vw,68px);font-weight:normal;margin:15px 0}
+.hero h2{font-size:17px;font-weight:normal;color:#6b5949}
+.btn{display:inline-block;margin-top:22px;background:#765333;color:white;padding:14px 28px;text-decoration:none;border:0;cursor:pointer}
 section{padding:55px 6%}
+.section-title{text-align:center;font-size:32px;font-weight:normal}
+.intro{text-align:center;color:#796b5d;line-height:1.7;max-width:600px;margin:12px auto 35px}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;max-width:950px;margin:auto}
+.item{background:#fff;border:1px solid #eee5d8;padding:12px}
+.item img{width:100%;height:300px;object-fit:cover;display:block;background:#eee5d8}
+.item h3{font-weight:normal;margin:14px 0 6px}
+.item p{font-size:13px;color:#877666}
+.about{background:#eee5d8;text-align:center;line-height:1.8}
+.contact{text-align:center}
+footer{background:#30251e;color:#eee2d2;text-align:center;padding:25px;font-size:13px}
+#cart{position:fixed;right:15px;bottom:15px;background:#765333;color:white;padding:13px 18px;border:0;cursor:pointer}
+@media(max-width:600px){
+ header{padding:16px 5%;flex-wrap:wrap;gap:12px}
+ nav a{margin-left:10px;font-size:12px}
+ .hero{padding:60px 6%}
+ section{padding:42px 5%}
+ .gallery{grid-template-columns:1fr;gap:16px}
+ .item img{height:300px}
 }
 </style>
 </head>
 <body>
+
 <header>
-<div class="logo">LUMORA</div>
-<nav>
-<a href="#home">HOME</a>
-<a href="#shop">SHOP</a>
-<a href="#story">OUR STORY</a>
-<a href="#contact">CONTACT</a>
-</nav>
+ <div class="logo">LUMORA</div>
+ <nav>
+  <a href="#collection">Collection</a>
+  <a href="#about">Our Story</a>
+  <a href="#contact">Contact</a>
+ </nav>
 </header>
 
-<div class="hero" id="home">
-<div>
-<div class="eyebrow">THE ART OF BEAUTIFUL LIVING</div>
-<h1>Bring Light.<br>Bring Life.</h1>
-<p>Discover candles created to turn everyday moments into something magical. A little warmth, a little luxury, a beautiful glow.</p>
-<a href="#shop" class="btn">EXPLORE COLLECTION</a>
-</div>
+<div class="hero">
+ <p>HANDCRAFTED WITH LOVE</p>
+ <h1>Light Up Your Moments</h1>
+ <h2>Beautiful candles. Thoughtful details. Timeless memories.</h2>
+ <a class="btn" href="#collection">EXPLORE COLLECTION</a>
 </div>
 
-<section id="shop">
-<div class="section-title">
-<small>MADE FOR YOUR MOMENTS</small>
-<h2>The Signature Collection</h2>
-</div>
-<div class="products">
-<div class="product">
-<img src="https://images.unsplash.com/photo-1602874801007-bd458bb1b8b6?auto=format&fit=crop&w=800&q=85" alt="Elegant scented candle">
-<h3>Golden Glow</h3>
-<div class="price">₹499</div>
-<button onclick="addToCart('Golden Glow',499)">ADD TO CART</button>
-</div>
-<div class="product">
-<img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=800&q=85" alt="Luxury candle">
-<h3>Velvet Dreams</h3>
-<div class="price">₹599</div>
-<button onclick="addToCart('Velvet Dreams',599)">ADD TO CART</button>
-</div>
-<div class="product">
-<img src="https://images.unsplash.com/photo-1603905179139-3a5a6f3d1e26?auto=format&fit=crop&w=800&q=85" alt="Decorative candle">
-<h3>Pure Serenity</h3>
-<div class="price">₹399</div>
-<button onclick="addToCart('Pure Serenity',399)">ADD TO CART</button>
-</div>
-</div>
+<section id="collection">
+ <h2 class="section-title">The Candle Collection</h2>
+ <p class="intro">Discover our floral and decorative candle designs, created to bring warmth, beauty and charm to your special moments.</p>
+
+ <div class="gallery">
+  <div class="item">
+   <img src="./8T363mFUa2dNg6V8dnJ9gYvbWyyKfNlqWo4GNn7gGPLkNRNHp3td2jCqGUdSnWjs9WsmYOCI3c0fjqfc-GRpqLmXncr0c0VShhhbiz8DkfZ7Q60h8aWe4hUCCOpAq2SIPq9bVJ7qksTGgwwky2kqbi_jHvy6dPQQWlm0PnsG8x-XJklNbUFrA4dwonZ4b6fl.jpeg" alt="Handmade candle design">
+   <h3>Floral Candle Designs</h3>
+   <p>Beautiful details for beautiful spaces.</p>
+  </div>
+
+  <div class="item">
+   <img src="./_F4YOLnVDtTnWiLV20gcNs2sK1HtY5MtGgFY4-UOaVfCuw7dhzA-2GCvR71skQEH0puVKT83VdaynYP7PTYjWBBv02FVOyk4tQILc6b1l420DArAujMDcb8VNab3R4eeMABqfqYSkAjTbf_2tW8OzMvXa2ctoTPVgAK1lk-XwLV8K-YCn-RPacU-v_0OoAjP.jpeg" alt="Decorative candle design">
+   <h3>Decorative Candles</h3>
+   <p>Unique designs to brighten your home.</p>
+  </div>
+
+  <div class="item">
+   <img src="./vDmKO6CJuVmMtZEFuhZ1ynqFwg-2Knm_mA72hpPGBKA7Ir4pxtvWxveHR4vmQQqAuS79LdfOBZYY5oqOKcyLoGUAznfoZzE2FLFwxrb6nH0DLS_S6k331kOdJQBSq57aHhYt5kVFB74VnRfJwMV_EkBq6wlFT91likaBAOyI7INLyxbY14Qgnj0dhaFZhTKM.jpeg" alt="Handmade gift candle">
+   <h3>Thoughtful Gift Pieces</h3>
+   <p>Little details that make gifting special.</p>
+  </div>
+
+  <div class="item">
+   <img src="./vxLHNJdKDobzyaENDhpV3xQTFughfk44sOLtG9FRE2_uB-l-RMmeGJz0RInfTkrbJTL4IE9BrNOTekr3koLx94ZQlknSVKgLeEV_YMKFuk9mETDbu6g9mzbVwwxUTAQZLjdwVWODc7AKMhmWRoX9Zvoz4qRY6pELEfdoZciVlzwU3myVFzEnF2GuMGGce1y.jpeg" alt="Decorative candle collection">
+   <h3>Special Candle Collection</h3>
+   <p>Made to add warmth and personality.</p>
+  </div>
+ </div>
 </section>
 
-<section class="story" id="story">
-<div class="section-title">
-<small>THE LUMORA PROMISE</small>
-<h2>More Than Just A Candle</h2>
-</div>
-<p>We believe light has the power to transform a space and a feeling. LUMORA is inspired by beautiful details, peaceful moments and the warmth of home.</p>
-<p>Every glow tells a story. Let yours begin here.</p>
+<section class="about" id="about">
+ <h2 class="section-title">A Little More Beautiful</h2>
+ <p>At LUMORA, we believe the smallest details can make a moment memorable. Explore decorative candles made for gifting, decorating and celebrating life's little joys.</p>
 </section>
 
-<div class="banner">
-<h2>Make Every Moment Glow</h2>
-<p>Find your favourite light in our collection.</p>
-<a href="#shop" class="btn">SHOP THE COLLECTION</a>
-</div>
+<section class="contact" id="contact">
+ <h2 class="section-title">Find Your Favourite</h2>
+ <p class="intro">Interested in a candle design? Contact us to ask about products, prices and availability.</p>
+ <p>Product enquiries welcome.</p>
+</section>
 
-<footer id="contact">
-<div class="logo">LUMORA</div>
-<p>Bring Light. Bring Life. Bring Brilliance.</p>
-<p>Luxury Candle Collection | Demo Store</p>
-<p>© 2026 LUMORA CANDLES</p>
+<footer>
+ LUMORA · Handmade with love<br><br>
+ © 2026 LUMORA. All rights reserved.
 </footer>
 
-<button id="cart" onclick="showCart()">Cart (0)</button>
+<button id="cart" onclick="alert('This is a demo cart. Contact the shop owner to place an order.')">My Bag · <span id="count">0</span></button>
 
-<script>
-let cart=[];
-function addToCart(name,price){
-cart.push({name,price});
-document.getElementById('cart').innerText='Cart ('+cart.length+')';
-alert(name+' added to your demo cart!');
-}
-function showCart(){
-if(cart.length===0){alert('Your cart is empty.');return;}
-let total=cart.reduce((sum,item)=>sum+item.price,0);
-let names=cart.map(item=>item.name+' - ₹'+item.price).join('\n');
-alert('YOUR DEMO CART\n\n'+names+'\n\nTotal: ₹'+total+'\n\nThis is a demo only. No real payment will be taken.');
-}
-</script>
 </body>
 </html>
+<img src="./vxLHNJdKDobzyaENDhpV3xQTFughfk44sOLtG9FRE2_uB-l-RMmeGJz0RInfTkrbJTL4IE9BrNOTekr3koLx94ZQlknSVKgLeEV_YMKFuk9mETDbu6g9mzbVwwxUTAQZLjdwVWODc7AKMhmWRoX9Zvoz4qRY6pELEfdoZzciVlzwU3myVFzEnF2GuMGGce1y.jpeg" alt="Decorative candle collection">
