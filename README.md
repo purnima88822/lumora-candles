@@ -109,3 +109,15 @@ footer{background:#30251e;color:#eee2d2;text-align:center;padding:25px;font-size
 <img src="./vxLHNJdKDobzyaENDhpV3xQTFughfk44sOLtG9FRE2_uB-l-RMmeGJz0RInfTkrbJTL4IE9BrNOTekr3koLx94ZQlknSVKgLeEV_YMKFuk9mETDbu6g9mzbVwwxUTAQZLjdwVWODc7AKMhmWRoX9Zvoz4qRY6pELEfdoZzciVlzwU3myVFzEnF2GuMGGce1y.jpeg" alt="Decorative candle collection">
 <p>Beautiful details for beautiful spaces.</p>
 <strong class="price">₹399</strong>
+<p>Unique designs to brighten your home.</p>
+<strong class="price">₹245</strong>
+<p>Little details that make gifting special.</p>
+<p>Little details that make gifting special.</p><strong class="price">₹599</strong><p>Made to add warmth and personality.</p><strong class="price">₹654</strong>
+.price {
+  display: block;
+  margin-top: 12px;
+  color: #765333;
+  font-size: 20px;
+  font-weight: bold;
+}
+vxLHNJdKDobzyaENDhpV3xQTFughfk44sOLtG9FRE2_uB-l-RMmeGJz0RInfTkrbJTL4IE9BrNOTekr3koLx94ZQlknSVKgLeEV_YMKFuk9mETDbu6g9mzbVwwxUTAQZLjdwVWODc7AKMhmWRoX9Zvoz4qRY6pELEfdoZzciVlzwU3myVFzEnF2GuMGGce1y.jpeg
