@@ -107,3 +107,5 @@ footer{background:#30251e;color:#eee2d2;text-align:center;padding:25px;font-size
 </body>
 </html>
 <img src="./vxLHNJdKDobzyaENDhpV3xQTFughfk44sOLtG9FRE2_uB-l-RMmeGJz0RInfTkrbJTL4IE9BrNOTekr3koLx94ZQlknSVKgLeEV_YMKFuk9mETDbu6g9mzbVwwxUTAQZLjdwVWODc7AKMhmWRoX9Zvoz4qRY6pELEfdoZzciVlzwU3myVFzEnF2GuMGGce1y.jpeg" alt="Decorative candle collection">
+<p>Beautiful details for beautiful spaces.</p>
+<strong class="price">₹399</strong>
